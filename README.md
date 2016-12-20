@@ -9,7 +9,8 @@
 
 
 2， 文件介绍：
-   classify_train_data_utils.py  对训练集进行分词，并存入文件
+   先运行classify_train_data_utils对数据分类，然后再运行main
+   classify_train_data_utils.py  对训练集进行分词，并存入文件
    jieba-master 使用的结巴分词库来进行对文本的分词
    main.py 主函数
    stop_words.txt  停用词集合，用于去停用词
